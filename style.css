@@ -1,0 +1,18 @@
+body
+{
+  background-color:#ba2be2a1 !important;
+  font-family:serif;
+}
+form input[type="text"]
+{
+  margin-bottom: 22px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn,.btn-dark
+{
+    margin-bottom: 22px;
+}
+.bg-primary
+{
+    background-color:#ba2be2 ! important;
+}
