@@ -1,12 +1,7 @@
 body
 {
-  background-color:#ba2be2a1 !important;
+  background-color: #82a7c4 !important;
   font-family:serif;
-}
-form input[type="text"]
-{
-  margin-bottom: 22px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .btn,.btn-dark
 {
@@ -14,5 +9,34 @@ form input[type="text"]
 }
 .bg-primary
 {
-    background-color:#ba2be2 ! important;
+    background-color:#15131452 ! important;
+}
+.table
+{
+  font-size: large;
+}
+.form-control:disabled
+{
+  background-color: rgb(139, 69, 204);
+  color:white;
+  outline: none;
+  border:none;
+  border-radius: 12px;
+}
+a
+{
+  text-decoration: none;
+  float: right;
+  position: relative;
+  top:-36px;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.alert-warning{
+  color: black;
+  background-color: #6493b9;
+  border-color: #6493b9;
+  box-shadow: 2px 2px 9px;
 }

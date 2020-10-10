@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="en-us">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    </head>
+    <style>
+        body
+        {
+            background-color: #82a7c4;
+        }
+        .jumbotron
+        {
+            background-image: url("images/jumbo.jpg");
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+        }
+        .card:hover
+        {
+            box-shadow:2px 2px 9px black;
+        }
+    </style>
+    <body>
+        <div class="jumbotron">
+            <h2 class="text-center text-white">To-Do-List</h2>
+            <h4 class="text-center text-white">Do your work wihtout Fail</h4>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="text-center text-white">Click to Add your work</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <img src="images/image.jpg" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="text-center">Work</h3>
+                                </div>
+                                <button class="btn btn-primary form-control" onclick="go(1)">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card">
+                            <img src="images/personal.jpg" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="text-center">Personal</h3>
+                                </div>
+                                <button class="btn btn-primary form-control" onclick="go(2)">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+          function go(id)
+          {
+              if(id==1)
+              window.location.href="work.php";
+              else
+              window.location.href="personal.php";
+          }
+    </script>
+
+
+</html>

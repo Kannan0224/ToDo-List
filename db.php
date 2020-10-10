@@ -5,5 +5,4 @@
  {
      echo"<script>alert('connection failed'); window.location.href='index.php';</script>";
  }
-
 ?>
